@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Snake game
+        </title>
+    </head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    
+        #gameScreen {
+            position: relative;
+            margin-left: 20px;
+            margin-top: 20px;
+            border : solid black;
+            width: 1320px;
+            height: 580px;
+        }
+
+        #score{
+            margin-left: 10px;
+            display: inline block;
+        }
+    </style>
+    <body>
+        <div id="gameScreen"></div>
+        <h2 id="score">Score = 0</h2>
+    </body>
+    <script src="obj.js"></script>
+    <script src="init.js"></script>
+    <script src="movement.js"></script>
+    <script src="collision.js"></script>
+    <script src="eat.js"></script>
+    <script src="main.js"></script>
+</html>
